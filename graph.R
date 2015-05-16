@@ -22,3 +22,5 @@ query = "MATCH (a:Person), (b:Person)
 WHERE ID(a) = 60 AND ID(b) = 56
 CREATE (a)-[r:Father]->(b)
 RETURN r"
+
+cypher(graph, query)
